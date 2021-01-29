@@ -45,6 +45,10 @@ public class Client {
         connection = new DatagramSocket(this.port);
     }
 
+    /**
+     * Will read all packets from UDP buffer as they arrive, and call a function to act on it
+     * @throws IOException
+     */
     public void receiveHandlePackets() throws IOException {
         final int packetIdIndex = 5; // From F1 2020 specification
         final String[] packetIdMapping = {
@@ -94,8 +98,6 @@ public class Client {
         } else { // No args provided, go with default port
             client = new Client();
         }
-
-
 
         try {
             client.receiveHandlePackets();
