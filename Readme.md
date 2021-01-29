@@ -2,7 +2,7 @@
 
 # F1 2020 Telemetry
 
-This is a small side project of mine which, when complete, will read the telemetry broadcast by the **F1 2020** game. It will be my task to create a beautiful, fast and responsive UI in which all data will be display apprioprietly.
+This is a small side project of mine which, when complete, will read the telemetry broadcast by the **F1 2020** game in real-time. It will be my task to create a beautiful, fast and responsive UI in which all data will be display apprioprietly.
 
 Along with a beautiful UI, i plan on incoporating some enthusiast features, such as live graphs for braking and throttle application, live corner speeds, amongst many more, to help those that want to improve the race do so.
 
