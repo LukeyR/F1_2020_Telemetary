@@ -47,7 +47,7 @@ public class Client {
 
     /**
      * Will read all packets from UDP buffer as they arrive, and call a function to act on it
-     * @throws IOException
+     * @throws IOException If IOException is raised when reading packet
      */
     public void receiveHandlePackets() throws IOException {
         final int packetIdIndex = 5; // From F1 2020 specification
