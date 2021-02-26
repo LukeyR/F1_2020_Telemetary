@@ -1,4 +1,5 @@
 # WIP
+Due to the need to re-write most of the code for parsing different packets from the game, this repository is currently very empty. It will become a more full program as i gain more free-time.
 
 # F1 2020 Telemetry
 
